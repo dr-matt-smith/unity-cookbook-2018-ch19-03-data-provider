@@ -3,9 +3,11 @@
 class DataProviderTester
 {
     [Test, TestCaseSource("AdditionProvider")]
-    public void testAdd(int num1, int num2, int expectedResult)
+    public void TestAdd(int num1, int num2, int expectedResult)
     {
         // Arrange
+        // (not needed - since values coming as arguments)
+
 
         // Act
         int result = num1 + num2;
